@@ -3,7 +3,7 @@
 
 Autor:
 
- <nicolaspauer20@gmail.com> del 27/08/2023 al 27/08/2023. 
+ <nicolaspauer20@gmail.com> del 27/08/2023 al 28/08/2023. 
 
 Descripción:
 
@@ -53,8 +53,8 @@ def encontrar(buscada, descripcion) -> list:
 	# Agrego si tiene algo de lo solicitud	
 	for linea in lineas:
 		# Busco coincidencias en termino de busqueda a descripcion  	
-		if (re.match(buscada, linea) or re.search(descripcion, linea)):
-			resultados.append(f'{linea} Encontrada para "{buscada}" o "{descripcion}".')
+		if (re.search(buscada, linea) and re.search(descripcion, linea)):
+			resultados.append(f'{linea} Encontrada para "{buscada}" y "{descripcion}".')
 	# Cierro archivo porque ya no lo necesito y se pueda seguir usando
 	datos.close()		
 	# Devuelvo lista de coincidendias 
