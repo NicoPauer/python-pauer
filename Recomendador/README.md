@@ -1,7 +1,7 @@
 # Recomendador Pauer
 ## Autor:
 
- <nicolaspauer20@gmail.com> del 27/08/2023 al 27/08/2023. 
+ <nicolaspauer20@gmail.com> del 27/08/2023 al 28/08/2023. 
 
 ## Descripción:
 
